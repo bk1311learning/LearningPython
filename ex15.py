@@ -14,3 +14,5 @@ file_again = input("> ") # shows > as to user who inputs a value. value is assin
 txt_again = open(file_again) #same as before open the file again and assigns contents to txt_again
 
 print(txt_again.read())  #reads contents of txt_again and prints them
+txt.close()
+txt_again.close()
