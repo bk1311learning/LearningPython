@@ -1,6 +1,6 @@
 from sys import argv
 
-script, user_name = argv
+script, user_name, age = argv
 prompt = 'Please Type your answer '
 
 print(f"Hi {user_name}, I'm the {script} script.")
@@ -15,7 +15,7 @@ print("What kind of computer do you have?")
 computer = input(prompt)
 
 print(f"""
-Alright, so you said {likes} about liking me.
+Alright {user_name} are you really {age} years old? You said {likes} about liking me.
 You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.
 """)
